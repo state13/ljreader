@@ -12,7 +12,7 @@ public class Journals {
 
 				put("ru-travel", new HashMap<String, String>() {
 					{
-						put("name", "Путешествия и прочее");
+						put("name", "РџСѓС‚РµС€РµСЃС‚РІРёСЏ Рё РїСЂРѕС‡РµРµ");
 						put("tag_start", "<div class=\"j-w j-beta-w j-w-tags\">");
 						put("tag_name", "<a href=\"http://ru-travel\\.livejournal\\.com/tag/.*?>(.*?)</a>");
 						put("tag_num", "<a href=\"http://ru-travel\\.livejournal\\.com/tag/.*?title=\"([0-9]+).*?\">");
@@ -22,7 +22,7 @@ public class Journals {
 
 				put("kak-eto-sdelano", new HashMap<String, String>() {
 					{
-						put("name", "Как это сделано");
+						put("name", "РљР°Рє СЌС‚Рѕ СЃРґРµР»Р°РЅРѕ");
 
 					}
 				});
@@ -39,7 +39,7 @@ public class Journals {
 
 				put("foto-history", new HashMap<String, String>() {
 					{
-						put("name", "История в фотографиях");
+						put("name", "РСЃС‚РѕСЂРёСЏ РІ С„РѕС‚РѕРіСЂР°С„РёСЏС…");
 
 					}
 				});
@@ -47,40 +47,40 @@ public class Journals {
 				
 				put("ru-psiholog", new HashMap<String, String>() {
 					{
-						put("name", "Сами себе психологи");
+						put("name", "РЎР°РјРё СЃРµР±Рµ РїСЃРёС…РѕР»РѕРіРё");
 					}
 				});
 
 				put("ru-foto", new HashMap<String, String>() {
 					{
-						put("name", "Русское фотосообщество");
+						put("name", "Р СѓСЃСЃРєРѕРµ С„РѕС‚РѕСЃРѕРѕР±С‰РµСЃС‚РІРѕ");
 
 					}
 				});
 
 				put("soviet-life", new HashMap<String, String>() {
 					{
-						put("name", "Предметы советской жизни");
+						put("name", "РџСЂРµРґРјРµС‚С‹ СЃРѕРІРµС‚СЃРєРѕР№ Р¶РёР·РЅРё");
 
 					}
 				});
 
 				put("76-82", new HashMap<String, String>() {
 					{
-						put("name", "Про нас");
+						put("name", "РџСЂРѕ РЅР°СЃ");
 					}
 				});
 				
 				put("ru-kino", new HashMap<String, String>() {
 					{
-						put("name", "Кино - видимые удовольствия");
+						put("name", "РљРёРЅРѕ - РІРёРґРёРјС‹Рµ СѓРґРѕРІРѕР»СЊСЃС‚РІРёСЏ");
 
 					}
 				});
 
 				put("drugoe-kino", new HashMap<String, String>() {
 					{
-						put("name", "Другое кино");
+						put("name", "Р”СЂСѓРіРѕРµ РєРёРЅРѕ");
 
 					}
 				});
@@ -93,7 +93,7 @@ public class Journals {
 				
 				put("sdelano-u-nas", new HashMap<String, String>() {
 					{
-						put("name", "Сделано у нас");
+						put("name", "РЎРґРµР»Р°РЅРѕ Сѓ РЅР°СЃ");
 					}
 				});
 				
@@ -106,21 +106,21 @@ public class Journals {
 				
 				put("spb-auto", new HashMap<String, String>() {
 					{
-						put("name", "Автомобильный Петербург");
+						put("name", "РђРІС‚РѕРјРѕР±РёР»СЊРЅС‹Р№ РџРµС‚РµСЂР±СѓСЂРі");
 
 					}
 				});
 				
 				put("moto-ru", new HashMap<String, String>() {
 					{
-						put("name", "Люди на мотоциклах");
+						put("name", "Р›СЋРґРё РЅР° РјРѕС‚РѕС†РёРєР»Р°С…");
 
 					}
 				});
 
 				put("ru-football", new HashMap<String, String>() {
 					{
-						put("name", "Сообщество любителей футбола");
+						put("name", "РЎРѕРѕР±С‰РµСЃС‚РІРѕ Р»СЋР±РёС‚РµР»РµР№ С„СѓС‚Р±РѕР»Р°");
 
 					}
 				});
@@ -129,7 +129,7 @@ public class Journals {
 				
 				put("malyshi", new HashMap<String, String>() {
 					{
-						put("name", "Малыши - от рождения до семи лет");
+						put("name", "РњР°Р»С‹С€Рё - РѕС‚ СЂРѕР¶РґРµРЅРёСЏ РґРѕ СЃРµРјРё Р»РµС‚");
 
 					}
 				});
@@ -147,31 +147,28 @@ public class Journals {
 				
 				put("ru-open", new HashMap<String, String>() {
 					{
-						put("name", "Открытая Россия");
+						put("name", "РћС‚РєСЂС‹С‚Р°СЏ Р РѕСЃСЃРёСЏ");
 
 					}
 				});
 				
 				put("engineering-ru", new HashMap<String, String>() {
 					{
-						put("name", "Инженерия");
-//						put("tag_start", "<ul class=\"j-w-list j-w-list-tags j-p-tagcloud\">");
-//						put("tag_name", "<li.*?><a href=\"http://engineering-ru\\.livejournal\\.com/tag/.*?>(.*?)</a>.*?</li>");
-//						put("tag_num", "<a href=\"http://engineering-ru\\.livejournal\\.com/tag/.*?title=\"([0-9]+).*?\">");
+						put("name", "РРЅР¶РµРЅРµСЂРёСЏ");
 
 					}
 				});
 				
 				put("virtualshopping", new HashMap<String, String>() {
 					{
-						put("name", "Шопоголики on-line");
+						put("name", "РЁРѕРїРѕРіРѕР»РёРєРё on-line");
 
 					}
 				});
 				
 				put("pora-valit", new HashMap<String, String>() {
 					{
-						put("name", "Пора валить?");
+						put("name", "РџРѕСЂР° РІР°Р»РёС‚СЊ?");
 
 					}
 				});
@@ -192,32 +189,27 @@ public class Journals {
 
 				put("your-look-today", new HashMap<String, String>() {
 					{
-						put("name", "Посмотри, как одеваются другие");
+						put("name", "РџРѕСЃРјРѕС‚СЂРё, РєР°Рє РѕРґРµРІР°СЋС‚СЃСЏ РґСЂСѓРіРёРµ");
 					}
 				});
 
 				put("my-first-time", new HashMap<String, String>() {
 					{
-						put("name", "Мой Первый Раз");
-//						put("item_start", "<article id=\"entry-my_first_time");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "<a href=\"http://my-first-time.livejournal.com/.*?\">(.*?)</a>");
-//						put("item_date", "<span class=\"j-e-date-day\">(.*?)</span>");
-//						put("item_id", "http://my-first-time.livejournal.com/([0-9]+)\\.html");
+						put("name", "РњРѕР№ РџРµСЂРІС‹Р№ Р Р°Р·");
 					}
 				});
 
 
 				put("moya-moskva", new HashMap<String, String>() {
 					{
-						put("name", "Моя Москва");
+						put("name", "РњРѕСЏ РњРѕСЃРєРІР°");
 
 					}
 				});
 
 				put("stalic-kitchen", new HashMap<String, String>() {
 					{
-						put("name", "Кулинарное сообщество");
+						put("name", "РљСѓР»РёРЅР°СЂРЅРѕРµ СЃРѕРѕР±С‰РµСЃС‚РІРѕ");
 
 					}
 				});
@@ -231,7 +223,7 @@ public class Journals {
 
 				put("ru-designer", new HashMap<String, String>() {
 					{
-						put("name", "Дизайнерское сообщество");
+						put("name", "Р”РёР·Р°Р№РЅРµСЂСЃРєРѕРµ СЃРѕРѕР±С‰РµСЃС‚РІРѕ");
 
 					}
 				});
@@ -239,69 +231,69 @@ public class Journals {
 
 				put("afisha-lj", new HashMap<String, String>() {
 					{
-						put("name", "ЖЖ рекомендует");
+						put("name", "Р–Р– СЂРµРєРѕРјРµРЅРґСѓРµС‚");
 
 					}
 				});
 				
 				put("master-klass", new HashMap<String, String>() {
 					{
-						put("name", "Мастер-класс");
+						put("name", "РњР°СЃС‚РµСЂ-РєР»Р°СЃСЃ");
 
 					}
 				});
 
 				put("art-expiration", new HashMap<String, String>() {
 					{
-						put("name", "Сообщество творческого выдоха");
+						put("name", "РЎРѕРѕР±С‰РµСЃС‚РІРѕ С‚РІРѕСЂС‡РµСЃРєРѕРіРѕ РІС‹РґРѕС…Р°");
 
 					}
 				});
 				
 				put("ru-railway", new HashMap<String, String>() {
 					{
-						put("name", "Железная дорога");
+						put("name", "Р–РµР»РµР·РЅР°СЏ РґРѕСЂРѕРіР°");
 
 					}
 				});
 
 				put("ru-job", new HashMap<String, String>() {
 					{
-						put("name", "Руджоб");
+						put("name", "Р СѓРґР¶РѕР±");
 
 					}
 				});
 
 				put("stars365", new HashMap<String, String>() {
 					{
-						put("name", "Рядом каждый день!");
+						put("name", "Р СЏРґРѕРј РєР°Р¶РґС‹Р№ РґРµРЅСЊ!");
 
 					}
 				});
 
 				put("ru-aviation", new HashMap<String, String>() {
 					{
-						put("name", "Летное поле");
+						put("name", "Р›РµС‚РЅРѕРµ РїРѕР»Рµ");
 
 					}
 				});
 				
 				put("interiors-ru", new HashMap<String, String>() {
 					{
-						put("name", "Интерьер как он есть");
+						put("name", "РРЅС‚РµСЂСЊРµСЂ РєР°Рє РѕРЅ РµСЃС‚СЊ");
 					}
 				});
 
 				put("kosmetichka", new HashMap<String, String>() {
 					{
-						put("name", "Косметичка - все о косметике и парфюмерии");
+						put("name", "РљРѕСЃРјРµС‚РёС‡РєР° - РІСЃРµ Рѕ РєРѕСЃРјРµС‚РёРєРµ Рё РїР°СЂС„СЋРјРµСЂРёРё");
 
 					}
 				});
 				
 				put("make-your-style", new HashMap<String, String>() {
 					{
-						put("name", "Создай свой стиль");
+						put("name", "РЎРѕР·РґР°Р№ СЃРІРѕР№ СЃС‚РёР»СЊ");
 
 					}
 				});
@@ -319,21 +311,21 @@ public class Journals {
 
 				put("odin-moy-den", new HashMap<String, String>() {
 					{
-						put("name", "Один мой день");
+						put("name", "РћРґРёРЅ РјРѕР№ РґРµРЅСЊ");
 					}
 				});
 				
 				
 				put("useful-faq", new HashMap<String, String>() {
 					{
-						put("name", "Полезные вопросы");
+						put("name", "РџРѕР»РµР·РЅС‹Рµ РІРѕРїСЂРѕСЃС‹");
 
 					}
 				});
 				
 				put("useless-faq", new HashMap<String, String>() {
 					{
-						put("name", "Бесполезные вопросы");
+						put("name", "Р‘РµСЃРїРѕР»РµР·РЅС‹Рµ РІРѕРїСЂРѕСЃС‹");
 
 					}
 				});
@@ -341,7 +333,7 @@ public class Journals {
 				
 				put("top", new HashMap<String, String>() {
 					{
-						put("name", "Топ");
+						put("name", "РўРѕРї");
 						put("tag_start", "");
 						put("tag_name", "");
 						put("tag_num", "");
@@ -355,7 +347,7 @@ public class Journals {
 				
 				put("friends", new HashMap<String, String>() {
 					{
-						put("name", "Друзья");
+						put("name", "Р”СЂСѓР·СЊСЏ");
 						put("tag_start", "<body");
 						put("tag_name", "\\.livejournal\\.com/tag/(.*?)[\"'/]");
 						put("tag_num", "");
@@ -370,65 +362,6 @@ public class Journals {
 			}
 		};
 	}
-	
-	
-
-//	static public LinkedHashMap<String, HashMap<String, String>> getLjCommunitiesListTag() {
-//		return new LinkedHashMap<String, HashMap<String, String>>() {
-//			{
-//				put("76-82", new HashMap<String, String>() {
-//					{
-//						put("item_start", "<h2>");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "<a href=\"http://76-82.livejournal.com/.*?\">(.*?)</a>");
-//						put("item_date", "<h2>(.*?)</h2>");
-//						put("item_id", "http://76-82\\.livejournal\\.com/([0-9]+)\\.html");
-//					}
-//				});
-//				
-//				put("useless-faq", new HashMap<String, String>() {
-//					{
-//						put("item_start", "<h2>");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "<a href=\"http://useless-faq.livejournal.com/.*?\">(.*?)</a>");
-//						put("item_date", "<h2>(.*?)</h2>");
-//						put("item_id", "http://useless-faq\\.livejournal\\.com/([0-9]+)\\.html");
-//					}
-//				});
-//				
-//				put("useful-faq", new HashMap<String, String>() {
-//					{
-//						put("item_start", "<h2>");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "<a href=\"http://useful-faq.livejournal.com/.*?\">(.*?)</a>");
-//						put("item_date", "<h2>(.*?)</h2>");
-//						put("item_id", "http://useful-faq\\.livejournal\\.com/([0-9]+)\\.html");
-//					}
-//				});
-//
-//				put("moya-moskva", new HashMap<String, String>() {
-//					{
-//						put("item_start", "<h2>");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "<a href=\"http://moya-moskva.livejournal.com/.*?\">(.*?)</a>");
-//						put("item_date", "<h2>(.*?)</h2>");
-//						put("item_id", "http://moya-moskva\\.livejournal\\.com/([0-9]+)\\.html");
-//					}
-//				});
-//
-//				put("ru-designer", new HashMap<String, String>() {
-//					{
-//						put("item_start", "<h2>");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "<a href=\"http://ru-designer.livejournal.com/.*?\">(.*?)</a>");
-//						put("item_date", "<h2>(.*?)</h2>");
-//						put("item_id", "http://ru-designer\\.livejournal\\.com/([0-9]+)\\.html");
-//					}
-//				});
-//
-//			}
-//		};
-//	}
 
 	static public LinkedHashMap<String, HashMap<String, String>> getLjUsersList() {
 
@@ -437,7 +370,7 @@ public class Journals {
 
 				put("sergeydolya", new HashMap<String, String>() {
 					{
-						put("name", "Страница виртуальных путешественников");
+						put("name", "РЎС‚СЂР°РЅРёС†Р° РІРёСЂС‚СѓР°Р»СЊРЅС‹С… РїСѓС‚РµС€РµСЃС‚РІРµРЅРЅРёРєРѕРІ");
 						put("tag_start", "<dd class=\"tags\">");
 						put("tag_name", "<li><a href=\"http://sergeydolya\\.livejournal\\.com/tag/.*?>(.*?)</a>.*?</li>");
 						put("tag_num", "<li>.*?<span class=\"tag-count\">([0-9]+).*?</span></li>");
@@ -446,21 +379,21 @@ public class Journals {
 				
 				put("pesen-net", new HashMap<String, String>() {
 					{
-						put("name", "Слава Сэ.");
+						put("name", "РЎР»Р°РІР° РЎСЌ.");
 						
 					}
 				});
 				
 				put("fritzmorgen", new HashMap<String, String>() {
 					{
-						put("name", "Место для дискуссий");
+						put("name", "РњРµСЃС‚Рѕ РґР»СЏ РґРёСЃРєСѓСЃСЃРёР№");
 						
 					}
 				});
 				
 				put("shpilenok", new HashMap<String, String>() {
 					{
-						put("name", "Игорь Шпиленок");
+						put("name", "РРіРѕСЂСЊ РЁРїРёР»РµРЅРѕРє");
 						
 					}
 				});
@@ -476,7 +409,7 @@ public class Journals {
 				
 				put("el-murid", new HashMap<String, String>() {
 					{
-						put("name", "Эль Мюрид");
+						put("name", "Р­Р»СЊ РњСЋСЂРёРґ");
 						put("tag_start", "<table.*?class=\"tagstable\">");
 						put("tag_name", "<td><a href=\"http://el-murid\\.livejournal\\.com/tag.*?>(.*?)</a></td>");
 						put("tag_num", "<td><a href=\"http://el-murid\\.livejournal\\.com/tag.*?>.*?</a></td><td>([0-9]+)</td>");
@@ -486,7 +419,7 @@ public class Journals {
 				
 				put("tema", new HashMap<String, String>() {
 					{
-						put("name", "Артемий Лебедев");
+						put("name", "РђСЂС‚РµРјРёР№ Р›РµР±РµРґРµРІ");
 						put("tag_start", "<ul class=\"ljtaglist\">");
 						put("tag_name", "<li><a href=\"http://tema\\.livejournal\\.com/tag.*?>(.*?)</a>.*?</li>");
 						put("tag_num", "<li><a href=\"http://tema\\.livejournal\\.com/tag.*?>.*?</a>.*?([0-9]+).*?</li>");
@@ -503,7 +436,7 @@ public class Journals {
 				
 				put("chipstone", new HashMap<String, String>() {
 					{
-						put("name", "Взгляд на Зазеркалье");
+						put("name", "Р’Р·РіР»СЏРґ РЅР° Р—Р°Р·РµСЂРєР°Р»СЊРµ");
 						
 
 					}
@@ -511,7 +444,7 @@ public class Journals {
 				
 				put("diak-kuraev", new HashMap<String, String>() {
 					{
-						put("name", "Андрей Кураев");
+						put("name", "РђРЅРґСЂРµР№ РљСѓСЂР°РµРІ");
 						
 					}
 				});
@@ -527,7 +460,7 @@ public class Journals {
 
 				put("evo-lutio", new HashMap<String, String>() {
 					{
-						put("name", "Эволюция");
+						put("name", "Р­РІРѕР»СЋС†РёСЏ");
 						
 
 					}
@@ -535,7 +468,7 @@ public class Journals {
 				
 				put("samsebeskazal", new HashMap<String, String>() {
 					{
-						put("name", "Будни одного бездельника");
+						put("name", "Р‘СѓРґРЅРё РѕРґРЅРѕРіРѕ Р±РµР·РґРµР»СЊРЅРёРєР°");
 						
 					}
 				});
@@ -551,21 +484,21 @@ public class Journals {
 				
 				put("putnik1", new HashMap<String, String>() {
 					{
-						put("name", "Дорога без конца");
+						put("name", "Р”РѕСЂРѕРіР° Р±РµР· РєРѕРЅС†Р°");
 						
 					}
 				});
 				
 				put("miss-tramell", new HashMap<String, String>() {
 					{
-						put("name", "Лена Миро");
+						put("name", "Р›РµРЅР° РњРёСЂРѕ");
 						
 					}
 				});
 
 				put("radulova", new HashMap<String, String>() {
 					{
-						put("name", "Наталья Радулова");
+						put("name", "РќР°С‚Р°Р»СЊСЏ Р Р°РґСѓР»РѕРІР°");
 						
 
 					}
@@ -573,14 +506,14 @@ public class Journals {
 
 				put("kukmor", new HashMap<String, String>() {
 					{
-						put("name", "Аксанов Нияз");
+						put("name", "РђРєСЃР°РЅРѕРІ РќРёСЏР·");
 						
 					}
 				});
 				
 				put("davydov-index", new HashMap<String, String>() {
 					{
-						put("name", "Давыдов.Индекс");
+						put("name", "Р”Р°РІС‹РґРѕРІ.РРЅРґРµРєСЃ");
 						put("tag_start", "<div class=\"content-tags\">");
 						put("tag_name", "<a href=\"http://davydov-index\\.livejournal\\.com/tag.*?>(.*?)</a>");
 						put("tag_num", "<a href=\"http://davydov-index\\.livejournal\\.com/tag.*?title=\"([0-9]+).*?\".*?>");
@@ -590,14 +523,14 @@ public class Journals {
 				
 				put("nemihail", new HashMap<String, String>() {
 					{
-						put("name", "Записки неМихаила");
+						put("name", "Р—Р°РїРёСЃРєРё РЅРµРњРёС…Р°РёР»Р°");
 						
 					}
 				});
 				
 				put("dpmmax", new HashMap<String, String>() {
 					{
-						put("name", "Блог добрых психиатров");
+						put("name", "Р‘Р»РѕРі РґРѕР±СЂС‹С… РїСЃРёС…РёР°С‚СЂРѕРІ");
 						
 
 					}
@@ -605,7 +538,7 @@ public class Journals {
 				
 				put("masterok", new HashMap<String, String>() {
 					{
-						put("name", "Мастерок.жж.рф");
+						put("name", "РњР°СЃС‚РµСЂРѕРє.Р¶Р¶.СЂС„");
 						
 
 					}
@@ -613,21 +546,21 @@ public class Journals {
 
 				put("nikitskij", new HashMap<String, String>() {
 					{
-						put("name", "Сергей Никитский");
+						put("name", "РЎРµСЂРіРµР№ РќРёРєРёС‚СЃРєРёР№");
 						
 					}
 				});
 				
 				put("prostitutka-ket", new HashMap<String, String>() {
 					{
-						put("name", "Екатерина Безымянная");
+						put("name", "Р•РєР°С‚РµСЂРёРЅР° Р‘РµР·С‹РјСЏРЅРЅР°СЏ");
 						
 					}
 				});
 				
 				put("aquatek-filips", new HashMap<String, String>() {
 					{
-						put("name", "Жизнь в путешествиях");
+						put("name", "Р–РёР·РЅСЊ РІ РїСѓС‚РµС€РµСЃС‚РІРёСЏС…");
 						
 
 					}
@@ -635,7 +568,7 @@ public class Journals {
 				
 				put("alexcheban", new HashMap<String, String>() {
 					{
-						put("name", "Ярко о путешествиях");
+						put("name", "РЇСЂРєРѕ Рѕ РїСѓС‚РµС€РµСЃС‚РІРёСЏС…");
 						
 					}
 				});
@@ -654,14 +587,14 @@ public class Journals {
 				
 				put("ibigdan", new HashMap<String, String>() {
 					{
-						put("name", "Что попало в мои сети");
+						put("name", "Р§С‚Рѕ РїРѕРїР°Р»Рѕ РІ РјРѕРё СЃРµС‚Рё");
 						
 					}
 				});
 				
 				put("dr-piliulkin", new HashMap<String, String>() {
 					{
-						put("name", "Доктор Пилюлькин");
+						put("name", "Р”РѕРєС‚РѕСЂ РџРёР»СЋР»СЊРєРёРЅ");
 						put("tag_start", "<h2 class=\"asset-name page-header2\">Visible Tags</h2>");
 						put("tag_name", "<li><a href=\"http://dr-piliulkin\\.livejournal\\.com/tag/.*?>(.*?)</a>.*?</li>");
 						put("tag_num", "<a href=\"http://dr-piliulkin\\.livejournal\\.com/tag/.*?>.*?</a>.*?([0-9]+).*?</li>");
@@ -673,12 +606,6 @@ public class Journals {
 				put("kitya", new HashMap<String, String>() {
 					{
 						put("name", "Kitya Karlson");
-						
-//						put("item_start", "class=\"metabar\">");
-//						put("item_author", "lj:user=\"(.*?)\"");
-//						put("item_name", "class=\"subj-link\">(.*?)</a>");
-//						put("item_date", "<em>(.*?)</em>");
-//						put("item_id", "http://tema.livejournal.com/(.*?)\\.html");
 					}
 				});
 				
@@ -687,7 +614,7 @@ public class Journals {
 				
 				put("cosharel", new HashMap<String, String>() {
 					{
-						put("name", "Честные истории о мужчинах и жизни");
+						put("name", "Р§РµСЃС‚РЅС‹Рµ РёСЃС‚РѕСЂРёРё Рѕ РјСѓР¶С‡РёРЅР°С… Рё Р¶РёР·РЅРё");
 						
 					}
 				});
@@ -698,7 +625,7 @@ public class Journals {
 				
 				put("exler", new HashMap<String, String>() {
 					{
-						put("name", "Алекс Экслер");
+						put("name", "РђР»РµРєСЃ Р­РєСЃР»РµСЂ");
 						
 					}
 				});
@@ -706,7 +633,7 @@ public class Journals {
 			
 				put("dolboeb", new HashMap<String, String>() {
 					{
-						put("name", "Живые записки Антона Носика");
+						put("name", "Р–РёРІС‹Рµ Р·Р°РїРёСЃРєРё РђРЅС‚РѕРЅР° РќРѕСЃРёРєР°");
 						
 					}
 				});
@@ -721,14 +648,14 @@ public class Journals {
 				
 				put("lovigin", new HashMap<String, String>() {
 					{
-						put("name", "Пётр Ловыгин");
+						put("name", "РџС‘С‚СЂ Р›РѕРІС‹РіРёРЅ");
 						
 					}
 				});
 				
 				put("plakhov", new HashMap<String, String>() {
 					{
-						put("name", "Не кинокритик. Не палеонтолог.");
+						put("name", "РќРµ РєРёРЅРѕРєСЂРёС‚РёРє. РќРµ РїР°Р»РµРѕРЅС‚РѕР»РѕРі.");
 						
 					}
 				});
@@ -744,7 +671,7 @@ public class Journals {
 
 				put("sen-semilia", new HashMap<String, String>() {
 					{
-						put("name", "Татьяна");
+						put("name", "РўР°С‚СЊСЏРЅР°");
 						put("tag_start", "<h2 class=\"asset-name page-header2\">Visible Tags</h2>");
 						put("tag_name", "<li><a href=\"http://sen-semilia\\.livejournal\\.com/tag/.*?>(.*?)</a>.*?</li>");
 						put("tag_num", "<a href=\"http://sen-semilia\\.livejournal\\.com/tag/.*?>.*?</a>.*?([0-9]+).*?</li>");
@@ -765,9 +692,4 @@ public class Journals {
 			}
 		};
 	}
-
-//	static public LinkedHashMap<String, HashMap<String, String>> getLjUsersListTag() {
-//
-//		return new LinkedHashMap<String, HashMap<String, String>>();
-//	}
 }

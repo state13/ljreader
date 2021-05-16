@@ -29,13 +29,11 @@ public class MForm extends Form {
 	}
 	
 	public Label getCustomTitle(){
-		//return (Label) LJreader.getComponentByName(this.getCustomTitleArea(), "CustomTitle");
 		return (Label)this.getClientProperty("CustomTitle");
 	}
 	
 	@Override
 	public Container getTitleArea(){
-		//return (Label) LJreader.getComponentByName(this.getCustomTitleArea(), "CustomTitle");
 		return leftArea;
 	}
 	
@@ -51,7 +49,6 @@ public class MForm extends Form {
 			this.setLayout(new BorderLayout());
 			this.addComponent(BorderLayout.NORTH, customTitleArea);
 			customTitle.setText(title);
-			//System.out.println("Adding title after removeAll");
 		}else{
 			this.setLayout(new BorderLayout());
 			customTitleArea =  new Container(new BorderLayout());
@@ -69,10 +66,6 @@ public class MForm extends Form {
 			customTitle = new Label();
 			customTitle.setText(title);
 			customTitle.setUIID("Title");
-//			Button b = new Button("xcv");
-//			customCommands.addComponent(b);
-//			Button b2 = new Button("xcv");
-//			customCommands.addComponent(b2);
 			customTitle.putClientProperty("CustomID", "CustomTitle");
 			customTitleArea.addComponent(BorderLayout.CENTER, customTitle);
 			this.putClientProperty("CustomTitle", customTitle);
@@ -83,12 +76,10 @@ public class MForm extends Form {
 	}
 	
 	public Container getCustomCommandsArea(){
-		//return (Container) LJreader.getComponentByName(this, "customCommandsArea");
 		return (Container)this.getClientProperty("customCommandsArea");
 	}
 
 	public Container getCustomTitleArea(){
-		//return (Container) LJreader.getComponentByName(this, "CustomTitleArea");
 		return (Container)this.getClientProperty("CustomTitleArea");
 	}
 	
@@ -104,10 +95,6 @@ public class MForm extends Form {
 		b.setIcon(cmd.getIcon());
 		b.setUIID("TitleCommand");
 		b.setText("");
-//		System.out.println("******");
-//		Container c =this.getCustomCommands();
-//		System.out.println(c);
-//		System.out.println("******");
 		this.getCustomCommandsArea().addComponent(b);
 		getCustomTitleArea().setPreferredH(cmd.getIcon().getHeight()+2*b.getStyle().getMargin(TOP));
 	}
